@@ -1,0 +1,160 @@
+import turtle
+
+# Create a screen and a turtle
+screen = turtle.Screen()
+pen = turtle.Turtle()
+
+# Define the movements based on the commands
+pen.left(90)
+pen.forward(15)
+
+# Draw the first set of pattern
+for _ in range(9):
+    pen.forward(4.5)
+    pen.left(20)
+
+pen.forward(10)
+
+# Draw the second set of pattern
+for _ in range(9):
+    pen.forward(4.5)
+    pen.right(20)
+
+pen.forward(25)
+pen.penup()
+pen.back(50)
+pen.pendown()
+pen.right(90)
+pen.forward(50)
+pen.back(25)
+pen.right(45)
+pen.forward(35)
+pen.back(35)
+pen.right(90)
+pen.forward(35)
+pen.back(35)
+pen.right(45)
+pen.forward(25)
+pen.penup()
+pen.left(90)
+pen.forward(40)
+pen.left(90)
+pen.forward(50)
+pen.pendown()
+pen.right(135)
+pen.forward(35)
+pen.left(90)
+pen.forward(35)
+pen.back(35)
+pen.right(135)
+pen.forward(25)
+pen.penup()
+pen.back(25)
+pen.left(90)
+pen.forward(30)
+pen.pendown()
+pen.forward(20)
+pen.penup()
+pen.forward(40)
+pen.pendown()
+pen.right(90)
+pen.forward(25)
+pen.back(50)
+pen.right(90)
+pen.forward(25)
+pen.back(50)
+pen.penup()
+pen.right(180)
+pen.forward(10)
+pen.right(90)
+pen.pendown()
+for _ in range(60):
+    pen.forward(1)
+    pen.left(3)
+
+pen.forward(30)
+pen.penup()
+pen.right(90)
+pen.forward(20)
+pen.right(90)
+pen.pendown()
+pen.forward(50)
+pen.back(50)
+pen.left(90)
+for _ in range(9):
+    pen.forward(5)
+    pen.right(20)
+
+pen.forward(10)
+pen.left(135)
+pen.forward(30)
+pen.left(45)
+pen.penup()
+pen.forward(20)
+pen.pendown()
+pen.left(90)
+pen.forward(50)
+pen.back(50)
+pen.right(90)
+pen.forward(25)
+pen.penup()
+pen.forward(10)
+pen.left(90)
+pen.forward(25)
+pen.right(90)
+pen.pendown()
+pen.forward(20)
+pen.penup()
+pen.forward(30)
+pen.right(90)
+pen.pendown()
+pen.forward(25)
+pen.back(50)
+pen.left(90)
+pen.penup()
+pen.forward(30)
+pen.pendown()
+
+# Complete the drawing
+for _ in range(150):
+    pen.forward(0.75)
+    pen.right(3)
+
+pen.right(15)
+pen.forward(40)
+pen.left(105)
+pen.penup()
+pen.forward(35)
+pen.pendown()
+
+# Draw another segment
+for _ in range(210):
+    pen.forward(0.75)
+    pen.left(3)
+
+pen.left(170)
+pen.forward(40)
+pen.right(80)
+pen.penup()
+pen.forward(30)
+pen.pendown()
+pen.forward(25)
+pen.right(100)
+pen.forward(50)
+pen.penup()
+pen.left(10)
+pen.forward(20)
+pen.right(90)
+pen.back(30)
+pen.pendown()
+
+# Repeat a specific pattern
+for _ in range(2):
+    pen.forward(580)
+    pen.right(90)
+    pen.forward(90)
+    pen.right(90)
+
+# Close the window when clicked
+screen.exitonclick()
+
